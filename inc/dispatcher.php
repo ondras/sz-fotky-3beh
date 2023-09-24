@@ -38,7 +38,7 @@
 
 			if (count($parts) == 1) {
 				if (is_numeric($year)) {
-					$id = (int) $year;
+					$this->id = (int) $year;
 					$this->result = ($this->checkAuthForIndex() ? self::YEAR : self::AUTH);
 				} else {
 					$this->result = self::INDEX;
