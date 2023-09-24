@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE strings [
+	<!ENTITY cs SYSTEM "cs.xml">
+	<!ENTITY en SYSTEM "en.xml">
+]>
+
+<locale>
+	&cs;
+	&en;
+</locale>

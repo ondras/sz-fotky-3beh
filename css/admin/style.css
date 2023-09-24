@@ -1,0 +1,69 @@
+body {
+	font-family: verdana;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	border-bottom:1px solid #eee;
+	padding: 2px;
+}
+
+a[href], a[href]:visited {
+	color: #00f;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: #666 0px 0px 2px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a img {
+	border: none;
+}
+
+header span:not(:first-child)::before {
+	content: " | ";
+}
+
+td.separator {
+	font-weight: bold;
+	padding-top: 1em;
+}
+
+p.error {
+	color: red;
+}
+
+tr.inactive a {
+	color: gray;
+}
+
+td span {
+	color: gray;
+	font-size: 85%;
+}
+
+div#images {
+	width: 528px;
+	padding: 0.5em;
+	border:2px solid black;
+	background-color: white;
+}
+
+div#images img {
+	cursor: pointer;
+	margin: 2px;
+}
+
+div#images img.selected {
+	margin: 0px;
+	border: 2px solid red;
+}
+

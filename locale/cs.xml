@@ -1,0 +1,24 @@
+<strings xml:lang="cs">
+	<str name="title">Sluneční zátoka 2023</str>
+	<str name="notfound">Nenalezeno</str>
+	<str name="image">Obrázek</str>
+	<str name="exif">EXIF</str>
+	<str name="map">Mapy Google</str>
+	<str name="allchapters">všechny kapitoly</str>
+
+	<str name="password.title">Ehm</str>
+	<str name="password.description">Pro přístup k tomuto obsahu je vyžadováno heslo.</str>
+	<str name="password.submit">Odeslat</str>
+
+	<str name="exif.file">Soubor</str>
+	<str name="exif.datetime">Datum a čas</str>
+	<str name="exif.latitude">Zeměpisná šířka</str>
+	<str name="exif.longitude">Zeměpisná délka</str>
+	<str name="exif.model">Fotoaparát</str>
+	<str name="exif.lens">Objektiv</str>
+	<str name="exif.focallength">Ohnisko</str>
+	<str name="exif.exposure">Expozice</str>
+	<str name="exif.fnumber">Clona</str>
+	<str name="exif.iso">Citlivost</str>
+	<str name="exif.flash">Blesk</str>
+</strings>
