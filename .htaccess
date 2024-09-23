@@ -7,4 +7,5 @@ RewriteEngine On
 RewriteCond		%{REQUEST_FILENAME} !-f
 RewriteCond		%{REQUEST_FILENAME} !-d
 RewriteRule		^2023 gallery.php [L,QSA]
-
+#RewriteRule     ^2024 gallery.php [L,QSA]
+RewriteRule     ^2124 gallery.php [L,QSA]

@@ -27,6 +27,7 @@
 			} else {
 				$this->authorized = array_key_exists("auth", $_SESSION);
 			}
+			$this->authorized = true; // FIXME
 
 			$parts = $this->getUriParts();
 			if (count($parts) == 0) {

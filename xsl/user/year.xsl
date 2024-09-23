@@ -18,7 +18,7 @@
 
 		<body id="year">
 			<h1>
-				<xsl:call-template name="_"><xsl:with-param name="key" select="'title'" /></xsl:call-template>
+				<xsl:value-of select="@title" />
 			</h1>
 
 			<ul>
