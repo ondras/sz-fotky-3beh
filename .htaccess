@@ -1,11 +1,20 @@
 Options -Indexes
 
+<If "%{REQUEST_URI} =~ m#^/2026#">
+    AuthType Basic
+    AuthName "SZ 2026"
+    AuthUserFile /var/www/html/.htpasswd
+    Require valid-user
+</If>
+
 RedirectMatch 404 ^/(\.git|sqlite|inc)
 
 RewriteEngine On
 
-RewriteCond		%{REQUEST_FILENAME} !-f
-RewriteCond		%{REQUEST_FILENAME} !-d
-RewriteRule		^2023 gallery.php [L,QSA]
-#RewriteRule     ^2024 gallery.php [L,QSA]
-RewriteRule     ^2124 gallery.php [L,QSA]
+RewriteCond	%{REQUEST_FILENAME} !-f
+RewriteCond	%{REQUEST_FILENAME} !-d
+RewriteRule	^2023 gallery.php [L,QSA]
+RewriteRule	^2024 gallery.php [L,QSA]
+RewriteRule	^2025 gallery.php [L,QSA]
+RewriteRule	^2026 gallery.php [L,QSA]
+

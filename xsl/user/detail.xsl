@@ -89,7 +89,7 @@
 			<a id="back" href="/{year}">🏠</a>
 			<oz-gallery>
 				<xsl:for-each select="thumbnails/thumbnail">
-					<a href="{@big}" data-type="{@type}"><img src="{@url}" alt="" /></a>
+					<a href="{@big}" data-type="{@type}"><img src="{@url}" alt="" loading="lazy" /></a>
 				</xsl:for-each>
 			</oz-gallery>
 		</main>
@@ -97,7 +97,7 @@
 		<script src="/js/select.js"></script>
 		<script type="module" src="/js/detail.js?3"></script>
 		<script type="module" src="https://cdn.jsdelivr.net/gh/ondras/oz-gallery/oz-gallery.js?3"></script>
-		<script type="module" src="https://unpkg.com/little-planet@0.5"></script>
+		<script type="module" src="https://unpkg.com/little-planet@0.6"></script>
 		</body>
 	</html>
 	</xsl:template>

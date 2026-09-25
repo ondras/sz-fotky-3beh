@@ -3,6 +3,9 @@
 
 	class Builder {
 		private $data = null;
+        private $config;
+        private $xml;
+        private $authorized;
 		const DATA = "data/";
 		const USER = 0;
 		const ADMIN = 1;
@@ -102,7 +105,7 @@
 
 				$photo = $item["photo"];
 				if ($photo) {
-					$arr["url"] = self::DATA . $item["year"] . "/" . $item["directory"] . "/small/" . $photo;
+					$arr["url"] = "/" . self::DATA . $item["year"] . "/" . $item["directory"] . "/small/" . $photo;
 				} else {
 					$arr["url"] = "http://www.icone-gif.com/icone/png/dock-config/System_Question_Mark.png";
 				}

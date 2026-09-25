@@ -35,7 +35,7 @@
 				</xsl:variable>
 				<li>
 					<a href="{@href}">
-						<img src="{@url}" title="{$title}" width="96" height="96" />
+						<img src="{@url}" title="{$title}" width="96" height="96" loading="lazy" />
 						<span><xsl:value-of select="@name" /></span>
 					</a>
 				</li>
