@@ -1,8 +1,8 @@
 Options -Indexes
 
-<If "%{REQUEST_URI} =~ m#^/2026#">
+<If "%{REQUEST_URI} =~ m#^/2027#">
     AuthType Basic
-    AuthName "SZ 2026"
+    AuthName "SZ 2027"
     AuthUserFile /var/www/html/.htpasswd
     Require valid-user
 </If>
